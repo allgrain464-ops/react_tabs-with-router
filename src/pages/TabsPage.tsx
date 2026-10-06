@@ -12,7 +12,7 @@ export const TabsPage = () => {
       <div className="container">
         <h1 className="title">Tabs page</h1>
 
-        <Tabs tabs={tabs} activeTabId={tabId} />
+        <Tabs tabs={tabs} selectedTabId={tabId} />
 
         <div className="block" data-cy="TabContent">
           {selectedTab ? selectedTab.content : 'Please select a tab'}
